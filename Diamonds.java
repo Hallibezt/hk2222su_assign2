@@ -56,19 +56,8 @@ public class Diamonds {
 			System.out.println();   		
 		}	
 		num = number;
-	}		
+	}			
 		
-		
-		
-		
-		
-		//  spaces decrese by 1
-		// while stars increase by 2
-		// When input number is reached 
-		//thing turn around untill star = 1
-		//This loop is broken and I can add number for the outer most loop
-		//if positive start working nested loops back in
-		// if negative quit all loops and game
 		
 	input.close();
 	
