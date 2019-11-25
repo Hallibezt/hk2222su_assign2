@@ -45,7 +45,7 @@ public static void main (String[] args) {
 	if (number < 0) {
 		System.out.println("You have quit this game");
 		break;}
-	
+	//Here run the number in the prime method if out true = print if false - go to else and print
 	else if(prime(number))
 		
 			System.out.println("This is a prime");

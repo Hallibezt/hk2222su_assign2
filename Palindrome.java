@@ -41,13 +41,21 @@ public static void main (String[] args) {
 	
 	System.out.print("Please, enter a word to see if it is a palindrome: ");
 	String check = input.nextLine();
+	int run = 1;
+	
+	while (run == 1) {
+	if (check.equals("stop"))
+		break; 
 	
 	if(palindrome(check))
 		System.out.print("This is a palindrome");
 	else
 		System.out.print("This is not a palindrome");
 	
-			
+	}
+	System.out.print("You stopped the application");
+
+	
 	input.close();
 
 
