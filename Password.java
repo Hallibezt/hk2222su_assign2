@@ -59,9 +59,8 @@ public static String password(String password) {
 		
 		System.out.print("This password works well");
 		
-		
 		input.close();
+		
 	   }
-			
 	}
 
